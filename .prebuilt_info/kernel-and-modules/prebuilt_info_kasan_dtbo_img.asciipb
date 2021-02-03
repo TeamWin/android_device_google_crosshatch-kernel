@@ -1,0 +1,11 @@
+drops {
+  android_build_drop {
+    build_id: "6351706"
+    target: "kernel_bluecross_kasan"
+    source_file: "dtbo.img"
+  }
+  dest_file: "kasan/dtbo.img"
+  version: "Linux version 4.9.200-gdf3ca60d978c-ab6351706 (android-build@abfarm-us-west1-c-0008) (Android (5484270 based on r353983c) clang version 9.0.3 (https://android.googlesource.com/toolchain/clang 745b335211bb9eadfa6aa6301f84715cee4b37c5) (https://android.googlesource.com/toolchain/llvm 60cf23e54e46c807513f7a36d0a7b777920b5881) (based on LLVM 9.0.3svn)) #0 SMP PREEMPT Tue Mar 31 18:37:41 UTC 2020"
+  version_group: "kernel-and-modules"
+  git_project: "device/google/crosshatch-kernel"
+}
